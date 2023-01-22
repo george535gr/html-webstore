@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap')
+
+
+* {
+    box-sizing: border-box;
+    font-style: Raleway;
+}
+
+html, body {
+padding: 0;
+
+margin: 0;
+}
+.nav ul{
+    margin: 0;
+
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: rgb(216, 11, 11);
+    text-decoration: solid
+
+}
+.main-nav{
+    text-align: center;
+    font-size: 1,1em;
+    font-weight: lighter;
+    border-bottom: 2px crimson;
+}
+.main-nav li{
+    padding:0 5%;
+}
+ .nav a:hover {
+    background: rgb(79, 79, 209)
+ }
+.main-header {
+    background-image: url("image/head.jpg");
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    color: brown;
+    font-style: oblique;
+}
+.content-section{
+    margin: 1em;
+}
+.container {
+    max-width:  900px;
+    margin: 0 auto;
+    padding: 0 1,5em;
+}
+.section-header {
+    font-style: oblique;
+    font-size: 3em;
+    color: #333;
+    text-align: center;
+}
+.about-band-image {
+float: left;
+height: 300px;
+width: 300px;
+margin: 15px;
+border-radius: 50%;
+}
+.main-footer {
+    background-color:aqua ;
+    color: whitesmoke;
+    padding: 0,25em 0 ;
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+
+}
+
+.footer-nav li {
+    padding: 0 0,5em;
+}
+
+.footer-nav img{
+    width: 60px;
+    height: 60px;
+}
+.footer-nav a:hover{
+   background: red;
+}
+
+.button {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.67em;
+    cursor: pointer;
+}
+.button-header {
+    margin: 0.5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2d9cdb ;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.button-header:hover {
+    background-color: rgb(204, 36, 13);
+}
+
+.button-play {
+    display: block;
+    margin: 0 auto;
+    color: #2d9cdb;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+      
+}
+
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row-last {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-button {
+    max-width: 19%;
+}
+
+.button-primary {
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.button-primary:hover {
+    background-color: #2d9cdb
+}
+.shop-item {
+    margin: 30px;
+}
+.shop-item-title {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1,5em;
+    color: #333;
+    width: 100%;
+    margin: 15px;
+}
+.shop-item-image{
+    height: 250px;
+}
+.shop-items-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow:  1;
+    color: #333
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-column{
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.cart-row,
+.cart-header-row {
+    display: flex;
+}
+
+.cart-item {
+width: 45%;
+}
+
+.cart-price {
+width: 20%;
+font-size: 1.2em;
+color: #333;
+}
+
+.cart-quantity {
+width: 35%;
+}
+
+.cart-item-title{
+    color: #333;
+    margin: .5em;
+    font-size: 1.2em;
+}
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button-danger {
+    color: white;
+    background-color: #eb5757;
+    font-weight: bold;
+    border-radius: 0.3em;
+    border: none;
+}
+
+.button-danger:hover {
+    background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title {
+font-size: 1.5em;
+font-weight: bold;
+color: black;
+margin-right: 20px;
+}
+.cart-total-price {
+    color: #cc4c4c;
+    font-size: 1.2em;
+}
+
+.button-purchase{
+    display: block;
+margin: 40px auto 80px auto;
+font-size: 1.50em;
+}
